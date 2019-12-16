@@ -1,3 +1,8 @@
 body {
-    margin: 5px;
+    margin: 15px;
+    text-align: center;
+}
+
+.container {
+    padding: 3px;
 }
