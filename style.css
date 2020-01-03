@@ -1,22 +1,76 @@
 body {
-    margin: 15px;
+    margin-top: 15px;
     text-align: center;
-    margin-bottom: 60px;
 }
 
 .container {
     padding: 3px;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 div {
     align-items: center;
 }
 
-.h3 {
+hr {
+    padding: 2px;
+}
+
+h3.h {
     background: linear-gradient(transparent 70%, #a7d6ff 70%);
     text-align: left;
 }
 
 p {
     text-align: left;
+}
+.ig-btn {
+    border-radius: 5px;
+    padding: 0px 10px 2px 10px;
+    background: linear-gradient(to right, #5478f2 0%, #f23f79 60%, orange 100%);
+    display: inline-block;
+    cursor: pointer;
+}
+.ig-btn:hover {
+    opacity: 0.8;
+}
+.ig-btn a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.youtube {
+    text-align: center;
+    position: relative;
+    width: 80%;
+    padding-top: 45%;
+}
+
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.l-bar {
+    /* max-height: calc(100vh - 9rem); */
+    overflow-y: auto;
+    margin-top: 15px;
+}
+
+.border-r {
+    border-right: 1px solid #00000010;
+    margin-right: 20px;
+    height: calc(100vh)
+}
+
+.footer {
+    height: 40px;
 }

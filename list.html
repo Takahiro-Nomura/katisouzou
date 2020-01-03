@@ -14,7 +14,17 @@
 </head>
 
 <body>
-  <div class="container">
+<div class="row align-items-start">
+  <div class="d-none d-lg-block col-lg-3 sticky-top border-r">
+    <nav class="l-bar">
+      <div class="w-100"><a href="./index.html"><h3>TOP</h3></a></div><br>
+      <div class="w-100"><a class="disabled" aria-disabled="true"><h3>候補者一覧</h3></a></div><br>
+      <div class="w-100"><a href="./seitou.html"><h3>政党で見る</h3></a></div><br>
+      <div class="w-100"><a href="#"><h3>よくある質問</h3></a></div><br>
+      <div class="w-100"><a href="./other.html"><h3>その他</h3></a></div>
+    </nav>
+  </div>
+  <div class="container col-12 col-md-9 col-lg-8 ml-lg-1 bd-sidebar">
     <div class="row">
       <div class="col">
         <h2>候補者一覧</h2>
@@ -27,7 +37,7 @@
         </select>
       </div>
       <div class="form-group">
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control" id="exampleFormControlSelect2">
           <option>八王子市</option>
         </select>
       </div>
@@ -40,14 +50,27 @@
       <div class="col">
         <h2>工科生に安心の未来を</h2>
         <h3>〇〇党 こうか とん</h3>
-        aaaaaa
+        若者のための政治を目指します
+      </div>
+    </a>
+    <hr>
+    <a href="./list/01.html" class="row">
+      <div class="col-3 col-sm-3 col-lg-3">
+        <img src="./img/list/01/icon.jpg" width="100%">
+      </div>
+      <div class="col">
+        <h2>工科生に安心の未来を</h2>
+        <h3>〇〇党 こうか とん</h3>
+        若者のための政治を目指します
       </div>
     </a>
     <hr>
   </div>
-  <ul class="nav justify-content-center navbar-light bg-light fixed-bottom">
+</div>
+<div class="d-lg-none footer"></div>
+<ul class="d-lg-none nav justify-content-center navbar-light bg-light fixed-bottom">
     <li class="nav-item">
-      <a class="nav-link" href="./index.html"">TOP</a>
+      <a class="nav-link" href="./index.html">TOP</a>
       </li>
       <li class=" nav-item">
         <a class="nav-link disabled" href="#" aria-disabled="true">候補者一覧</a>
@@ -59,7 +82,7 @@
       <a class="nav-link" href="#">よくある質問</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">その他</a>
+      <a class="nav-link" href="./other.html">その他</a>
     </li>
   </ul>
   <!-- Optional JavaScript -->
