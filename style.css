@@ -74,3 +74,46 @@ p {
 .footer {
     height: 40px;
 }
+
+.carousel-caption {
+    color: #000000;
+}
+
+.carousel-inner {
+    height: auto;
+}
+
+.carousel-item {
+    position: relative;
+    top: 0;
+    left: 10%;
+    z-index: 0;
+    max-width: 80%;
+    right: 10%;
+}
+
+.carousel-item .half-img {
+    width: 1000px;
+    max-width: 50%;
+}
+
+.carousel-item .full-img {
+    width: 1000px;
+    max-width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    left: 60%;
+    right: 0;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'><path d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/></svg>");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'><path d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/></svg>");
+}
