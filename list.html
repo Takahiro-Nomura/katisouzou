@@ -9,74 +9,113 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/c55e3ebd21.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  <title>kati team18</title>
+  <title>選挙Go</title>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#star1').on('click', function () {
+        $('#star1').toggleClass('fa-star');
+        $('#star1').toggleClass('fa-star-o');
+      });
+      $('#star2').on('click', function () {
+        $('#star2').toggleClass('fa-star');
+        $('#star2').toggleClass('fa-star-o');
+      });
+    });
+  </script>
 </head>
 
 <body>
-<div class="row align-items-start">
-  <div class="d-none d-lg-block col-lg-3 sticky-top border-r">
-    <nav class="l-bar">
-      <div class="w-100"><h2>選挙Go</h2></div><br>
-      <div class="w-100"><a href="./index.html"><h3>TOP</h3></a></div><br>
-      <div class="w-100"><a class="disabled" aria-disabled="true"><h3>候補者一覧</h3></a></div><br>
-      <div class="w-100"><a href="./seitou.html"><h3>政党で見る</h3></a></div><br>
-      <div class="w-100"><a href="#"><h3>よくある質問</h3></a></div><br>
-      <div class="w-100"><a href="./other.html"><h3>その他</h3></a></div>
-    </nav>
-  </div>
-  <div class="container col-12 col-md-9 col-lg-8 ml-lg-1 bd-sidebar">
-    <h2 class="d-lg-none">選挙Go</h2>
-    <br class="d-lg-none">
-    <div class="row">
-      <div class="col">
-        <h2>候補者一覧</h2>
-      </div>
+  <div class="row align-items-start">
+    <div class="d-none d-lg-block col-lg-3 sticky-top border-r">
+      <nav class="l-bar">
+        <div class="w-100">
+          <h2>選挙Go</h2>
+        </div><br>
+        <div class="w-100"><a href="./index.html">
+            <h3>TOP</h3>
+          </a></div><br>
+        <div class="w-100"><a class="disabled" aria-disabled="true">
+            <h3>候補者一覧</h3>
+          </a></div><br>
+        <div class="w-100"><a href="./seitou.html">
+            <h3>政党で見る</h3>
+          </a></div><br>
+        <div class="w-100"><a href="#">
+            <h3>よくある質問</h3>
+          </a></div><br>
+        <div class="w-100"><a href="./other.html">
+            <h3>その他</h3>
+          </a></div>
+      </nav>
     </div>
-    <form>
-      <div class="form-group">
-        <select class="form-control" id="exampleFormControlSelect1">
-          <option>東京都</option>
-        </select>
+    <div class="container col-12 col-md-9 col-lg-8 ml-lg-1 bd-sidebar">
+      <h2 class="d-lg-none">選挙Go</h2>
+      <br class="d-lg-none">
+      <div class="row">
+        <div class="col">
+          <h2>候補者一覧</h2>
+        </div>
       </div>
-      <div class="form-group">
-        <select class="form-control" id="exampleFormControlSelect2">
-          <option>八王子市</option>
-        </select>
+      <form>
+        <div class="form-group">
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>東京都</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <select class="form-control" id="exampleFormControlSelect2">
+            <option>八王子市</option>
+          </select>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1"><i class="fa fa-star"
+              aria-hidden="true"></i>したものだけ表示</label>
+        </div>
+      </form>
+      <hr>
+      <div class="row">
+        <a href="./list/01.html" class="col-3 col-sm-3 col-lg-3">
+          <img src="./img/list/01/icon.jpg" width="100%">
+        </a>
+        <div class="col">
+          <a href="./list/01.html">
+            <h2>工科生に安心の未来を</h2>
+            <h3>TUT党 こうか とん</h3>
+            若者のための政治を目指します
+          </a>
+          <i id="star1" class="fa fa-star-o fav-star" aria-hidden="true"></i>
+        </div>
       </div>
-    </form>
-    <hr>
-    <a href="./list/01.html" class="row">
-      <div class="col-3 col-sm-3 col-lg-3">
-        <img src="./img/list/01/icon.jpg" width="100%">
+      <hr>
+      <div class="row">
+        <a href="./list/01.html" class="col-3 col-sm-3 col-lg-3">
+          <img src="./img/list/01/icon.jpg" width="100%">
+        </a>
+        <div class="col">
+          <a href="./list/01.html">
+            <h2>工科生に安心の未来を</h2>
+            <h3>TUT党 こうか とん</h3>
+            若者のための政治を目指します
+          </a>
+          <i id="star2" class="fa fa-star fav-star" aria-hidden="true"></i>
+        </div>
       </div>
-      <div class="col">
-        <h2>工科生に安心の未来を</h2>
-        <h3>TUT党 こうか とん</h3>
-        若者のための政治を目指します
-      </div>
-    </a>
-    <hr>
-    <a href="./list/01.html" class="row">
-      <div class="col-3 col-sm-3 col-lg-3">
-        <img src="./img/list/01/icon.jpg" width="100%">
-      </div>
-      <div class="col">
-        <h2>工科生に安心の未来を</h2>
-        <h3>TUT党 こうか とん</h3>
-        若者のための政治を目指します
-      </div>
-    </a>
-    <hr>
+      <hr>
+      <hr>
+    </div>
   </div>
-</div>
-<div class="d-lg-none footer"></div>
-<ul class="d-lg-none nav justify-content-center navbar-light bg-light fixed-bottom">
+  <div class="d-lg-none footer"></div>
+  <ul class="d-lg-none nav justify-content-center navbar-light bg-light fixed-bottom">
     <li class="nav-item">
       <a class="nav-link" href="./index.html">TOP</a>
-      </li>
-      <li class=" nav-item">
-        <a class="nav-link disabled" href="#" aria-disabled="true">候補者一覧</a>
+    </li>
+    <li class=" nav-item">
+      <a class="nav-link disabled" href="#" aria-disabled="true">候補者一覧</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="./seitou.html">政党で見る</a>

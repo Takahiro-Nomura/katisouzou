@@ -8,68 +8,82 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/c55e3ebd21.js" crossorigin="anonymous"></script>
-  <title>kati team18</title>
+  <title>選挙Go</title>
 </head>
 
 <body>
-<div class="row align-items-start">
-  <div class="d-none d-lg-block col-lg-3 sticky-top border-r">
-    <nav class="l-bar">
-      <div class="w-100"><h2>選挙Go</h2></div><br>
-      <div class="w-100"><a class="disabled" aria-disabled="true"><h3>TOP</h3></a></div><br>
-      <div class="w-100"><a href="./list.html"><h3>候補者一覧</h3></a></div><br>
-      <div class="w-100"><a href="./seitou.html"><h3>政党で見る</h3></a></div><br>
-      <div class="w-100"><a href="#"><h3>よくある質問</h3></a></div><br>
-      <div class="w-100"><a href="./other.html"><h3>その他</h3></a></div>
-    </nav>
-  </div>
-  <div class="container col-12 col-md-9 col-lg-8 ml-lg-1 bd-sidebar">
-    <h2 class="d-lg-none">選挙Go</h2>
-    <br class="d-lg-none">
-    <div class="row">
-      <div class="col">
-        <h3>2020年01月XX日は参議院選挙</h3>
-        <a href="https://twitter.com/intent/tweet?button_hashtag=私は投票してきました202001&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-show-count="false">Tweet #私は投票してきました202001</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
+  <div class="row align-items-start">
+    <div class="d-none d-lg-block col-lg-3 sticky-top border-r">
+      <nav class="l-bar">
+        <div class="w-100">
+          <h2>選挙Go</h2>
+        </div><br>
+        <div class="w-100"><a class="disabled" aria-disabled="true">
+            <h3>TOP</h3>
+          </a></div><br>
+        <div class="w-100"><a href="./list.html">
+            <h3>候補者一覧</h3>
+          </a></div><br>
+        <div class="w-100"><a href="./seitou.html">
+            <h3>政党で見る</h3>
+          </a></div><br>
+        <div class="w-100"><a href="#">
+            <h3>よくある質問</h3>
+          </a></div><br>
+        <div class="w-100"><a href="./other.html">
+            <h3>その他</h3>
+          </a></div>
+      </nav>
     </div>
-    <hr>
-    <div id="slide" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#slide" data-slide-to="0" class="active"></li>
-        <li data-target="#slide" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        <a class="carousel-item active" href="./list/01.html">
-          <img src="./img/list/01/icon.jpg" class="d-block half-img" alt="...">
-          <div class="carousel-caption">
-            <h2>工科生に安心の未来を</h2>
-            <h3>TUT党 こうか とん</h3>
-          </div>
-        </a>
-        <div class="carousel-item">
-          <a href="./list/01.html">
+    <div class="container col-12 col-md-9 col-lg-8 ml-lg-1 bd-sidebar">
+      <h2 class="d-lg-none">選挙Go</h2>
+      <br class="d-lg-none">
+      <div class="row">
+        <div class="col">
+          <h3>2020年01月XX日は参議院選挙</h3>
+          <a href="https://twitter.com/intent/tweet?button_hashtag=私は投票してきました202001&ref_src=twsrc%5Etfw"
+            class="twitter-hashtag-button" data-size="large" data-show-count="false">Tweet #私は投票してきました202001</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+      <hr>
+      <div id="slide" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#slide" data-slide-to="0" class="active"></li>
+          <li data-target="#slide" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <a class="carousel-item active" href="./list/01.html">
             <img src="./img/list/01/icon.jpg" class="d-block half-img" alt="...">
             <div class="carousel-caption">
               <h2>工科生に安心の未来を</h2>
               <h3>TUT党 こうか とん</h3>
             </div>
           </a>
+          <div class="carousel-item">
+            <a href="./list/01.html">
+              <img src="./img/list/01/icon.jpg" class="d-block half-img" alt="...">
+              <div class="carousel-caption">
+                <h2>工科生に安心の未来を</h2>
+                <h3>TUT党 こうか とん</h3>
+              </div>
+            </a>
+          </div>
         </div>
+        <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <hr>
-    <!--div class="row">
+      <hr>
+      <!--div class="row">
       <div class="col-3 col-sm-3 col-lg-3">
         <img src="./img/list/01/icon.jpg" width="100%">
       </div>
@@ -79,49 +93,49 @@
       </a>
     </div>
     <hr-->
-    <div class="row">
-      <div class="col-9 col-sm-9 col-lg-9">
-        <a href="./seitou/01.html">
-          <h2>日本の明日を切り拓く</h2>
-          <h3>自由民主党</h3>
-        </a>
-      </div>
-      <div class="col">
-        <img src="./img/seitou/jimin-icon.png" width="100%">
+      <div class="row">
+        <div class="col-9 col-sm-9 col-lg-9">
+          <a href="./seitou/01.html">
+            <h2>日本の明日を切り拓く</h2>
+            <h3>自由民主党</h3>
+          </a>
+        </div>
+        <div class="col">
+          <img src="./img/seitou/jimin-icon.png" width="100%">
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="d-lg-none footer"></div>
-<ul class="d-lg-none nav justify-content-center navbar-light bg-light fixed-bottom">
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" aria-disabled="true">TOP</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./list.html">候補者一覧</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./seitou.html">政党で見る</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">よくある質問</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./other.html">その他</a>
-  </li>
-</ul>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+  <div class="d-lg-none footer"></div>
+  <ul class="d-lg-none nav justify-content-center navbar-light bg-light fixed-bottom">
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" aria-disabled="true">TOP</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./list.html">候補者一覧</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./seitou.html">政党で見る</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">よくある質問</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./other.html">その他</a>
+    </li>
+  </ul>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
