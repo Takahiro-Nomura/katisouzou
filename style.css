@@ -122,6 +122,10 @@ p {
     color: orange;
 }
 
+.fa-star-o {
+    color: orange;
+}
+
 .fav-star {
     font-size: 1.5rem;
     position: absolute;
